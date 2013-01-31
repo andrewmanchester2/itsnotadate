@@ -1,0 +1,254 @@
+/* 
+    Document   : css
+    Created on : Jan 30, 2013, 12:09:04 PM
+    Author     : fun4all
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+UL.tabNavigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+UL.tabNavigation LI {
+    display: inline;
+}
+
+UL.tabNavigation LI A {
+    padding: 3px 5px;
+    background-color: #fff;
+    color: #9AC9AC;
+    text-decoration: none;
+}
+
+ul.tabNavigation li a.selected,
+ul.tabNavigation li a:hover {
+    background-color: #fff;
+    color: black;
+    padding-top: 7px;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+    border-radius: 3px;
+}
+
+UL.tabNavigation LI A:focus {
+        outline: 0;
+}
+
+div.tabs > div {
+        padding: 5px;
+        margin-top: 3px;
+        
+}
+
+div.tabs > div h2 {
+        margin-top: 0;
+}
+
+#first {
+    background-color: #fff;
+}
+
+#second {
+    background-color: #fff;
+}
+
+#third {
+    background-color: #fff;
+}
+
+.waste {
+        min-height: 1000px;
+}
+#trial-form {
+   float: right;
+   
+    background-color: #fff;
+    margin-top: 44px;
+    padding-left: 23px;
+    padding-bottom: 4px;
+    padding-top: -1px;
+    padding-right: 30px;
+    font-family: Myriad pro;
+    border: 3px solid grey;
+    width: 225px;
+    margin-right: 116px;
+}
+#main-picture {
+    background: url(http://itsnotadate.demos.thisisboss.com/wp-content/uploads/2013/01/bar-Div.png);
+    height: 452px;
+    margin-top: 48px;
+    border-top: 4px solid grey;
+  
+
+}
+#slider {
+    background-color: #fff;
+    float: left;
+    margin-top: 74px;
+    width:648px
+
+}
+.post{
+    border:  2px solid grey;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#newsletter-subscribe {
+    background-color: #fff;
+    height: 161px;
+    width: 275px;
+    padding-top: -2px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-bottom: 93px;
+   
+    margin-bottom: 10px;
+  
+    margin-top:12px;
+
+}
+.logo {
+   float: left;
+    margin-left: 357px;
+    margin-top: 41px;
+}
+.subscribe {
+  background-color: #391848;
+    width: 72px;
+    padding-left: 19px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+}
+input[type='text'] {
+    margin-top: 14px;
+    width: 211px;
+    margin-bottom: 0px;
+    padding-left: 7px;
+
+}
+.submit {
+    background-color: #C90014;
+    width: 72px;
+    padding-left: 19px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+
+}
+#text-2 {
+    width: 15%;
+    float: right;
+    margin-top: -632px;   
+}
+#textwidget {
+    width: 15%;
+    float: right;
+    margin-top: -632px;   
+}
+.phone number {
+    margin-top: -15px;
+}
+.call-now {
+    font-weight: bolder;
+    color:#C90014;
+    font-size:20px;
+
+}
+.menu {
+    float: right;
+    background-color: #CC3333;
+    padding-right: 14px;
+    font-size: 8px;
+    line-height: 4px;
+    color: #fff;
+    padding-left: 10px;
+    margin-right: 245px;
+        width:605px;
+        height:38px;
+        margin-bottom:-26px;
+}
+
+.menu a {
+     color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-left: 3px;
+    margin-top: 10px;
+}
+
+.menu a:hover {
+    color: cyan;
+}
+
+#content{
+
+}
+#primary{
+    width: 684px;
+    float: left;
+        color:grey;
+        font-family: Helvetica, Arial, sans-serif;
+}
+
+#secondary {
+    width: 400px;
+    float: right;
+        
+}
+
+#words {
+    width:1152px;
+    margin: 0 auto;
+        
+}
+
+footer {
+    padding-top: 100px;
+    clear: both;
+       
+}
+.mingle{
+    float:right;
+    margin-right:245px;
+    margin-top:28px;
+     
+}
+
+.clear-both {
+    
+    clear: both;
+}
+#objects{
+     width:1152px;
+    margin: 0 auto;
+    
+}
+input[type='age'] {
+    margin-top: 22px;
+    width: 75px;
+    margin-bottom: 0px;
+    padding-left: 7px;
+   
