@@ -8,9 +8,10 @@
  */
 
 get_header(); ?>
-
-		<div id="primary">
-			<div id="content" role="main">
+<div id="words">
+    <div id="content">
+        <div id="primary">
+		
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -22,11 +23,13 @@ get_header(); ?>
 
 					<?php get_template_part( 'content-single', get_post_format() ); ?>
 
-					<?php comments_template( '', true ); ?>
+					
 
 				<?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
-
+</div>
+</div>
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

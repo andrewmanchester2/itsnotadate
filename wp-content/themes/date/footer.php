@@ -13,8 +13,11 @@
 	
 
 	<footer id="colophon" role="contentinfo">
-hot dog .com
-googl.com
+	<div id="social">
+		<img src="http://itsnotadate.demos.thisisboss.com/wp-content/uploads/2013/02/vimeo.png" />
+		<img src="http://itsnotadate.demos.thisisboss.com/wp-content/uploads/2013/02/1359755477_facebook.png" />
+		<img src="http://itsnotadate.demos.thisisboss.com/wp-content/uploads/2013/02/1359755496_social_twitter_box_blue.png" />
+	</div>
 			<?php
 				/* A sidebar in the footer? Yep. You can can customize
 				 * your footer with three columns of widgets.

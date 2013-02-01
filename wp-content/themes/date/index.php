@@ -28,7 +28,7 @@ get_header(); ?>
                 </ul>
 
                 <div id="first">
-                    <p>Text</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
 
                 <div id="second">
@@ -36,23 +36,21 @@ get_header(); ?>
                 </div>
 
                 <div id="third">
-                    <h2>Third</h2>
+                    
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>  
             </div> <!-- /.tabs -->
             
             <h2>It's Not A Date Blog</h2>
-            <div class="post">
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> <h2><?php the_title() ;?></h2> <?php the_post_thumbnail(); ?> <?php the_excerpt(); ?>
+            
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?><div class="post"> <h2><?php the_title() ;?></h2> <?php the_post_thumbnail(); ?> <?php the_excerpt(); ?>
             </div> 
             <?php endwhile; else: ?> <p>Sorry, no posts to list</p> <?php endif; ?>
         </div>
     </div>
     <?php get_sidebar(); ?>
     <?php get_footer(); ?>
-</div>
 
 
 
    
-

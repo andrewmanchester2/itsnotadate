@@ -56,6 +56,25 @@
                     <label for="email"></label><input type="text" name="email" class="required email" id="email" placeholder="Email" /><span>*</span><br />
                     <input type="age" name="age" class="required email" id="age" placeholder="Age" />
                     <br/>
+	<div id="Options">
+	<div id="gender">
+<label for="gender">Gender</label>
+		<select name="gender">
+			<option value="blank"></option>
+                        <option value="male">Male</option>
+                        <option value="saab">Female</option>
+                  </select>
+	</div>
+	<div id="where">
+		<label for="where">I would like to date in..</label>
+		<select name="where">
+			<option value="blank"></option>
+                        <option value="male">Male</option>
+                        <option value="saab">Female</option>
+                  </select>
+		</div>
+	</div>
+<br/>
                     <label for="hear">How did you hear about us ?</label>
                     <select name="hear">
                         <option value="volvo">Volvo XC90</option>
